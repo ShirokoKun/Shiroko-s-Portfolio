@@ -125,7 +125,7 @@
 
 .about-visual {
     position: relative;
-    height: 400px;
+    height: 40px;
 }
 
 .constellation {
@@ -166,7 +166,7 @@
     }
 
     .about-visual {
-        height: 300px;
+        height: 30px;
     }
 
     .skills-grid {
@@ -188,7 +188,7 @@
     }
 
     .about-visual {
-        height: 250px;
+        height: 20px;
     }
 }
 
