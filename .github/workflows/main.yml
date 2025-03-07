@@ -1,0 +1,25 @@
+name: Auto Update Portfolio
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update-repo:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v3
+
+    - name: Pull Latest Changes
+      run: git pull origin main
+
+    - name: Apply Updates
+      run: |
+        git config --global user.email "swastikgupta.nexboy@gmail.com"
+        git config --global user.name "GitHub Actions Bot"
+        git add .
+        git commit -m "Auto-update portfolio"
+        git push
