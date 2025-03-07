@@ -18,9 +18,10 @@ jobs:
 
     - name: Apply Updates
       run: |
-        git config --global user.email "your-email@example.com"
+        git config --global user.email "swastikgupta.nexboy@gmail.com"
         git config --global user.name "GitHub Actions Bot"
         git add .
         git commit -m "Auto-update portfolio"
         git push
+
 
