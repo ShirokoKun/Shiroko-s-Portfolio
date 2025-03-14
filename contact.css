@@ -7,7 +7,6 @@
 }
 #starField{
 height:0px;
-padding:13%;
 }
 .contact-container {
     width: 100%;
@@ -163,7 +162,10 @@ padding:13%;
         gap: 2rem;
         padding: 1.5rem;
     }
-
+#starField{
+height:0px;
+padding:13%;
+}
     .contact-info,
     .contact-form-container {
         padding: 1rem;
